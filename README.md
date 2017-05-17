@@ -3,11 +3,15 @@ Este es un proyecto para la clase de entorno de desarrollo en el cual nos han pr
 
 ## Para compilar el proyecto:
 javac -cp /(directorio de jarjunit)/*:. *.java
+
 --Ejemplo
+
 javac -cp /home/alumnado/jarjunit/*:. *.java 
 
 
 ## Para ejecutar el TestSuit:
 java -cp /(directorio de jarjunit)/*:. org.junit.runner.JUnitCore (nombre del test)
+
 --Ejemplo
+
 java -cp /home/alumnado/jarjunit/*:. org.junit.runner.JUnitCore JunitTestSuite
