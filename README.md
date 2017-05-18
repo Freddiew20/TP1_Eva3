@@ -1,17 +1,11 @@
- # TP1_Eva3
-Este es un proyecto para la clase de entorno de desarrollo en el cual nos han proporcionado varias clases con sus test, para que, a partir de ellos generemos una clase JUnitSuite, lo compilemos y lo ejecutemos correctamente.
+ # TP2_Eva3
 
-## Para compilar el proyecto:
-`javac -cp <directorio_de_jarjunit>/*:. *.java`
+## Informacion
 
-*Ejemplo*
+Este projecto es igual que el proyecto de TP1_Eva3 pero, la finalizdad de este es transformarlo en un proyecto maven, ya que veremos que a la hora de hacerlo como un proyecto maven, la clase SUIT no la necesitaremos.
 
-`javac -cp /home/alumnado/jarjunit/*:. *.java`
+## Compilación y ejecución:
 
+Para ejecutar el proyecto tendremos que descargar o clonar el proyecto, nos colocaremos el ca carpeta principal de proyecto y desde la terminal pondremos:
 
- ## Para ejecutar el TestSuit:
-`java -cp <directorio_de_jarjunit>/*:. org.junit.runner.JUnitCore <nombre_del_test>`
-
-*Ejemplo*
-
-`java -cp /home/alumnado/jarjunit/*:. org.junit.runner.JUnitCore JunitTestSuite`
+`mvn test`
