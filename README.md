@@ -4,7 +4,7 @@ Este es un proyecto para la clase de entorno de desarrollo en el cual nos han pr
 ## Para compilar el proyecto:
 `javac -cp <directorio_de_jarjunit>/*:. *.java`
 
-* Ejemplo *
+*Ejemplo*
 
 `javac -cp /home/alumnado/jarjunit/*:. *.java`
 
@@ -12,6 +12,6 @@ Este es un proyecto para la clase de entorno de desarrollo en el cual nos han pr
  ## Para ejecutar el TestSuit:
 `java -cp <directorio_de_jarjunit>/*:. org.junit.runner.JUnitCore <nombre_del_test>`
 
-* Ejemplo *
+*Ejemplo*
 
 `java -cp /home/alumnado/jarjunit/*:. org.junit.runner.JUnitCore JunitTestSuite`
