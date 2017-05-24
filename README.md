@@ -6,7 +6,7 @@ Este es un proyecto para la clase de entorno de desarrollo en el cual nos han pr
 
 *Ejemplo*
 
-`javac -cp /home/alumnado/jarjunit/*:. *.java`
+`javac -cp /home/alumnado/jarjunit/*:. JUnitTestSuite.java`
 
 
  ## Para ejecutar el TestSuit:
@@ -15,3 +15,12 @@ Este es un proyecto para la clase de entorno de desarrollo en el cual nos han pr
 *Ejemplo*
 
 `java -cp /home/alumnado/jarjunit/*:. org.junit.runner.JUnitCore JunitTestSuite`
+
+ ## Debe retornar esto
+       alumnado@A121PC08:~/Escritorio/git$ java -cp ~/misjars/junit/*:. org.junit.runner.JUnitCore JunitTestSuite
+       JUnit version 4.8.1
+       .....
+       Time: 0,007
+
+       OK (5 tests)
+
